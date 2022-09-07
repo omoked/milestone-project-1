@@ -8,4 +8,28 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    color: #FEFFFE;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: #07004D;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 150%;
+}
+
+#menu {
+    font-size: 90%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
 }
