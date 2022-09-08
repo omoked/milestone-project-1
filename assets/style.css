@@ -1,19 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    color: #FEFFFE;
-}
-
 h1 {
     font-family: "Roboto", sans-serif;
-    color: #07004D;
+    color: var(--tertiary);
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -25,7 +12,6 @@ h1 {
 
 #menu {
     font-size: 90%;
-    list-style-type: none;
     letter-spacing: 4px;
 }
 
@@ -45,4 +31,87 @@ h1 {
 
 .timeline {
     color: black;
+}
+
+/* variables */
+:root {
+    --primary: #07004D;
+    --secondary:#F2542D;
+    --tertiary: #DCEDFF;
+}
+/* reset */
+body, p, a, ul, li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li{
+    list-style-type: none;
+}
+/* base styles */
+body{
+    background: var(--primary);
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: var(--tertiary);
+}
+
+.button{
+    background: none;
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+.button:hover{
+    color: var(--tertiary);
+    background: var(--secondary);
+}
+input, textarea{
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 2px solid #9893D8;
+    color: var(--tertiary);
+}
+/* fonts */
+@font-face {
+    font-family: 'Roboto', sans-serif ;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+}
+h1, h2, h3, h4{
+    color: var(--tertiary);
+    font-weight: normal;
+}
+p, a, li{
+    color: var(--tertiary);
+}
+
+h1, h3{
+    font-size: 1.2em;
+}
+h2{
+    font-size: 1.6em;
+}
+h4{
+    font-size: 1.1em;
+}
+.leading{
+    font-size: 1.1em;
+}
+/* mobile styles */
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+    
+}
+/* large tablets & laptop styles */
+@media screen and (min-width: 960px) {
+    
+}
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+    
 }

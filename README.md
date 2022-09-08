@@ -3,7 +3,7 @@
 1. Purpose of the project
     The purpose of this project is to create my first milestone project to demonstrate to employers that I can skillfully use HTML and CSS to create a static front end project.
 
-    My website is inspired by the Code Institute website and other educational websites. I want it to be a site where people like me who are pivoting into the tech industry can start their journey by learning HTML, CSS and JavaScript. There will be hypothetical classes that will be included on the website that I am offering classes for. I am aiming to document my journey and to provide a visual guide of learning the languages necessary to become a Full Stack Software Developer.
+    My website is inspired by the Code Institute website and other educational websites. I want it to be a site where people like me who are pivoting into the tech industry can start their journey by learning HTML, CSS and JavaScript. There will be hypothetical classes that will be included on the website that my instructors and I are offering classes for. I am aiming to document my journey and to provide a visual guide of learning the languages necessary to become a Full Stack Software Developer.
 2. User stories
 
    When the user interacts with my website, I want it to elicit a positive emotional reaction. To ensure that this happens, when considering the user experience I will:
